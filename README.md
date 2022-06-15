@@ -20,6 +20,8 @@ Fork this repo, open it on GitHub Codespaces, and run the following command to v
 streamlit hello
 ```
 
+![st-codespaces](https://user-images.githubusercontent.com/20672874/173758145-674a171a-60de-4850-a30f-ab8b921ffd43.gif)
+
 If it weren't for the `.streamlit/config.toml` file, you would have had to run the following command:
 
 ```bash
