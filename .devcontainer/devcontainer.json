@@ -9,7 +9,7 @@
 			// Update 'VARIANT' to pick a Python version: 3, 3.10, 3.9, 3.8, 3.7, 3.6
 			// Append -bullseye or -buster to pin to an OS version.
 			// Use -bullseye variants on local on arm64/Apple Silicon.
-			"VARIANT": "3.9",
+			"VARIANT": "3.10",
 		}
 	},
 	// Set *default* container specific settings.json values on container create.
@@ -27,7 +27,8 @@
 	],
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// Install NPM dependencies.
-	"postCreateCommand": "pip install -U streamlit",
+	"postCreateCommand": "pip install -r requirements.txt",
+	"postStartCommand": "streamlit hello",
 	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "vscode",
 	"features": {

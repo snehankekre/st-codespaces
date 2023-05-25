@@ -16,11 +16,7 @@ Fork this repo, add your Streamlit app to it, and run it on GitHub Codespaces. :
 
 ## Example usage
 
-Fork this repo, open it on GitHub Codespaces, and run the following command to view the Hello app:
-
-```bash
-streamlit hello
-```
+Fork this repo, open it on GitHub Codespaces, wait for the container to load, and click the "Open in browser" button in the bottom right corner when it appears to open the Hello app:
 
 ![st-codespaces](https://user-images.githubusercontent.com/20672874/173758145-674a171a-60de-4850-a30f-ab8b921ffd43.gif)
 
