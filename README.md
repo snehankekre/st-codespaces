@@ -18,7 +18,8 @@ Fork this repo, add your Streamlit app to it, and run it on GitHub Codespaces. :
 
 Fork this repo, open it on GitHub Codespaces, wait for the container to load, and click the "Open in browser" button in the bottom right corner when it appears to open the Hello app:
 
-![st-codespaces](https://user-images.githubusercontent.com/20672874/173758145-674a171a-60de-4850-a30f-ab8b921ffd43.gif)
+![st-codespaces](https://github.com/snehankekre/st-codespaces/assets/20672874/9e31e47f-1fce-4213-a973-e7ed1259a480)
+
 
 If it weren't for the `.streamlit/config.toml` file, you would have had to run the following command:
 
